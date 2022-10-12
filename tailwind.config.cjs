@@ -6,14 +6,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'gray': {
-          100: 'C4C4C4',
+        transparent: 'transparent',
+        black: "#000",
+        background: "#1d1d1d",
+        white: "#fff",
+        gray: {
+          100: '#C4C4C4',
           200: '#E1E1E6',
           400: '#7C7C8A',
           800: '#202024',
           900: '#121214'
         },
-        'cyan': {
+        cyan: {
           300: '#9BE1FB',
           500: '#81D8F7'
         }
